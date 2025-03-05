@@ -22,10 +22,6 @@ app.get('/', (req, res) => {
     res.send('request');
 });
 
-app.get('/ralf', (req, res) => {
-    res.send('vielen Dank Ralf');
-});
-
 
 
 app.post('/add', (req, res) => {
